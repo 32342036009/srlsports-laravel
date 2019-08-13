@@ -1,0 +1,855 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #eee;
+}
+img{
+    max-width: 100%;
+}
+.main-menu li {
+	display: inline-block;
+	padding-left: 30px;
+	line-height: 70px;
+}
+.main-menu li a {
+	color: #fff;
+	font-weight: 500;
+}
+.main-menu {
+	text-align: right;
+}
+#myVideo {
+	height: 55vh;
+	width: 100%;
+	object-fit: cover;
+}
+.head-sec {
+	position: relative;
+}
+.make-pay {
+	text-align: right;
+	padding: 0 !important;
+}
+.payment-section {
+	padding: 40px 0;
+}
+.msg-style-green {
+	border-left: 12px solid green;
+}
+.msg-style-red {
+	border-left: 12px solid #dc3545;
+}
+.msg-style-red b, .msg-style-green b {
+	line-height: 50px;
+	padding-left: 10px;
+}
+.logo-sec {
+	position: absolute;
+	padding: 20px 0;
+} 
+.vdo_box {
+	position: relative;
+	height: 55vh;
+}
+.vdo_overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+}
+.banner-text {
+	position: absolute;
+	top: 50%;
+	color: #fff;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	left: 50%;
+}
+.banner-text h3 {
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 60px;
+	margin: 10px 0;
+}
+.banner-text h1 {
+	font-size: 42px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+.banner-text p {
+	font-size: 32px;
+	font-weight: 500;
+}
+.video-sec {
+	overflow: hidden;
+	background: #147283;
+	min-height: 55vh;
+}
+.sports-category-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	grid-gap: 25px;
+}
+.sports-category-list li {
+	list-style: none;
+}
+.card-image {
+	padding: 25px;
+}
+.category-section, .style-sec {
+	padding: 40px 0;
+}
+.form-section {
+	padding: 40px 10px 40px 10px;
+}
+.form-section label.active {
+	color: #333;
+	font-weight: 600;
+	font-size: 15px;
+}
+.print-opt {
+	margin: 12px 0 !important;
+}
+.print-opt span {
+	color: #000 !important;
+	font-weight: 500 !important;
+}
+.ptr-opt {
+	padding: 5px 0;
+}
+.print-opt .row {
+	margin-bottom: 0;
+}
+.front-row, .back-row {
+	margin-bottom: 0 ; 
+}
+.form-section h5 {
+	margin: 14px 0;
+}
+select:focus {
+	outline: 0 !important;
+}
+select {
+	border: 0px solid #f2f2f2;
+}
+.price-total b {
+	font-size: 36px;
+	font-weight: 400;
+	margin-left: 3px;
+}
+.price-total {
+	float: right;
+	margin-right: 5px;
+	font-size: 19px;	
+}
+.price-sec a {
+	color: #565656;
+	font-size: 14px;
+}
+.price-sec .prices {
+	font-size: 30px;
+	margin-left: 5px;
+	font-weight: 400;
+	color: #000;
+}
+.price-sec p i {
+	font-size: 20px;
+	margin-right: 12px;
+}
+.price-sec p span {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.extra-add img {
+	width: 80px;
+}
+.extra-add {
+	width: 100%;
+	padding: 10px 0 0 0;
+	border: 3px solid #dedede;
+	margin-bottom: 20px;
+}
+.top-logo img {
+	width: 180px;
+}
+#colours_postal_code, #colours_postal_code1, #colours_postal_code2 {
+	margin-top: 10px;
+	width: 100px;
+	height: 70px;
+	border: none;
+}
+.team-color span {
+	font-size: 12px;
+	font-weight: 500;
+	display: block;
+}
+.submit-btn a {
+	clear: both;
+	display: block;
+}
+.extra-add .row {
+	margin-bottom: 0;
+}
+.extra-add p {
+	font-size: 21px;
+	line-height: 50px;
+}
+.extra-add h5 {
+	margin: 10px 0;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 56px;
+}
+.extra-add label {
+	text-align: center;
+	display: inline-block;
+}
+.extra-add p span b {
+	font-size: 35px;
+	font-weight: 400;
+}
+.player-detail-row {
+	margin-top: 25px;
+}
+.color-list li {
+	display: inline-block;
+	width: 12.2%;
+	min-height: 90px;
+	margin-bottom: 5px;
+	text-align: center;
+	line-height: 90px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.input-field select {
+	background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
+	background-size: 8px 10px;
+	border-bottom: 1px solid #9e9e9e;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.note-para {
+	font-size: 13px;
+	margin-top: 14px !important;
+	letter-spacing: 0.4px;
+	background: #17a2b8;
+	color: #fff;
+}
+.note-para b {
+	padding-left: 12px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.errorframe input, .errorframe textarea {
+	border-bottom: 1px solid red !important;
+}
+.category-section h2, .style-sec h2, .form-section h2 {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 70px;
+	font-size: 30px;
+	margin: 10px 0;
+	line-height: 50px;
+}
+.card-content h3 {
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+.card-image img {
+	min-height: 158px;
+}   
+.card-content h3 {
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 35px;
+	margin: 5px 0;
+	color: #000;
+}
+.style-sec {
+	background: #f7f7f7;
+}
+.style-category-list {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-gap: 25px;
+}
+.card-action {
+	text-align: center;
+	padding-bottom: 25px;
+} 
+.footer-sec {
+	background: #000;
+	padding: 50px 0;
+}
+.copy-right {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 16px 0;
+	margin: 0;
+	font-size: 12px;
+}
+.foot-logo img {
+	width: 150px;
+}
+.foot-logo a {
+	float: right;
+}
+.price-link {
+	display: block;
+	font-size: 19px;
+	color: #333;
+	font-weight: 500;
+	line-height: 40px;
+}
+.foot-link-one a, .foot-link-two a {
+	color: #dcdcdc;
+	line-height: 40px;
+}
+.submit-btn {
+	margin-top: 25px;
+}
+.card .card-content {
+	padding: 10px 0 !important;
+}
+.card {
+	margin: 0;
+	height: 100%;
+}
+.top-logo img {
+	width: 15%;
+}
+nav {
+	background: transparent;
+	position: absolute;
+	width: 100%;
+	box-shadow: unset !important;
+	padding: 20px 0;
+	z-index: 99;
+}
+nav ul a {
+	font-size: 17px !important;
+	font-weight: 600 !important;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+}
+.custom-btn {
+	display: block;
+	border-radius: unset;
+}
+.card-image {
+	min-height: 220px;
+}
+.size-sec button {
+	width: 30%;
+}
+.size-sec h4 {
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.card {
+	box-shadow: unset !important;
+}
+.price-tag {
+	font-size: 24px;
+}
+.desc p {
+	color: #6d6d6d;
+}
+.pro-desc p {
+	margin: 8px 0;
+}
+.price-tag strong {
+	font-size: 17px;
+	color: #000;
+}
+.pro-desc {
+	border-radius: 5px;
+}
+.form-sec {
+	padding: 50px 0;
+}
+.sidebar button {
+	width: 100%;
+}
+.sidebar h5 {
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+.main-prod, .add-on 	{
+	font-size: 14px;
+	line-height: 40px;
+}
+.total-amount {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 50px;
+	border-top: 2px solid #dcdcdc;
+}
+.sidebar span {
+	float: right;
+}
+.product-for-detail img {
+	max-width: 280px;
+}
+.img-sec {
+	padding: 10px 30px !important;
+}
+.selected-product-details {
+	padding: 50px 0 0 0;
+}
+.product-for-detail {
+	min-height: 350px;
+	text-align: center;
+	padding-top: 30px;
+	vertical-align: middle;
+}
+.product-selected {
+	padding-top: 18px;
+}
+.size-sec {
+	width: 50%;
+}
+.selected-product-details h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 0 0 16px 0;
+}
+
+/* ======================payment section=================== */
+.total-price p span b {
+	font-size: 46px;
+	font-weight: 400;
+}
+.total-price p span {
+	display: block;
+	text-align: center;
+	background: #fff;
+	color: #000;
+	padding: 10px;
+}
+.total-price p {
+	display: inline-block;
+	background: #101010;
+	color: #fff;
+	padding: 5px 5px;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+.avatar img {
+	width: 200px;
+}
+.style-type {
+	width: 25%;
+	display: inline-block;
+}
+.style-type h4 {
+	font-size: 21px;
+	margin: 10px 0;
+	text-align: center;
+}
+.total-price {
+	width: 73.5%;
+	display: inline-block;
+	font-size: 15px;
+	text-align: right;
+	min-height: 90px;
+	vertical-align: top;
+}
+.payment-btn h4 {
+	margin: 8px 0;
+}
+.payment-section h2 {
+	text-transform: uppercase;
+	font-size: 26px;
+	margin: 10px 0;
+	line-height: 60px;
+}
+.payment-btn {
+	padding: 40px 25px;
+}
+.stripe-img img {
+	width: 280px;
+}
+.order-detail, .players-detail {
+	padding: 20px 10px;
+}
+.order-detail p {
+	font-size: 24px;
+	line-height: 70px;
+	text-align: right;
+	color: #6e6e6e;
+}
+.order-detail p span b {
+	color: #000;
+	font-size: 40px;
+	font-weight: 500;
+}
+.payment-btn a {
+	width: 20%;
+}
+.make-payment {
+	margin: 10px 0 35px 0;
+	text-align: right;
+}
+.shorts-inc {
+	text-align: right;
+	font-weight: 500;
+}
+.order-detail {
+	margin-bottom: 50px;
+}
+.review-sec {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+	grid-gap: 10px;
+}
+.review-sec li {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 10px;
+	transform: translateX(-10px);
+}
+.displayName {
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+}
+.error-message {
+	font-size: 14px;
+	padding: 10px 0;
+	font-weight: 300;
+	color: #6c6c6c;
+}
+.comment-sec textarea {
+	border: 1px solid #e4e4e4;
+	padding: 10px 10px;
+}
+.comment-sec textarea {
+	border: 1px solid #e4e4e4;
+	padding: 10px 10px;
+	min-height: 88px;
+}
+.comment-sec textarea {
+	border: 1px solid #e4e4e4;
+	padding: 10px 10px;
+	min-height: 88px;
+	margin-bottom: 5px;
+}
+.art-work-sec .card {
+	min-height: 400px !important;
+}
+.avatar {
+	padding: 10px 0;
+}
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+	box-sizing: border-box;
+	height: 40px;
+	padding: 10px 12px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background-color: #eeeeee;
+	box-shadow: 0 1px 3px 0 #e6ebf1;
+	-webkit-transition: box-shadow 150ms ease;
+	transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+/**
+ * STRIPE END HERE
+ */
+
+nav .top-logo {
+    position: relative; 
+    color: #fff;
+    display: inline; 
+    font-size: 2.1rem;
+    padding: 0;
+}
+
+.style-category-list li{
+   cursor: pointer;
+}
+
+.row.card.thanks-page {
+    min-height: 326px;
+    display: flex;
+    align-items: center;
+    font-size: 31px;
+    text-align: center;
+}
+
+.thanks-page .col {
+    display: flex;
+    align-items: center;
+}
+/* ======================payment section ends=================== */
+@media (max-width: 760px) {
+	.top-logo img {
+		width: 30%;
+		vertical-align: middle;
+	}
+	.extra-add label {
+		line-height: 8px;
+		margin-left: 18px;
+	}
+	.extra-add h5 {
+		line-height: 26px;
+	}
+	.extra-add p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	
+	/*.sports-category-list {*/
+	/*	grid-template-columns: 1fr;*/
+	/*}*/
+	/*.style-category-list {*/
+	/*	grid-template-columns: 1fr;*/
+	/*}*/
+	.banner-text h3 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.banner-text h1 {
+		font-size: 22px;
+	}
+	.banner-text p {
+		font-size: 27px;
+	}
+	.banner-text {
+		width: calc(100% - 40px);
+	}
+	.foot-logo {
+		display: none;
+	}
+	.pro-desc {
+		padding: 14px 0;
+	}
+}
+
+
+/* ==============================FAQ section ====================== */
+.faq_section h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.faq_section {
+	padding: 50px 0;
+}
+.accordions_title {
+	display: grid;
+	grid-template-columns: 1fr 20px;
+	background-color: #fff;
+	cursor: pointer;
+	margin-top: 15px;
+	padding: 20px 30px;
+	transition: 0.3s linear;
+}
+.accordions_title h3 {
+	color: #1d1d29;
+	transition: 0.3s linear;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 45px;
+}
+.accordions_title span {
+	align-self: center;
+	justify-self: end;
+	display: block;
+}
+.accordions_title span:after {
+	content: "+";
+	display: inline-block;
+	transition: 0.3s linear;
+	font-size: 16px;
+	position: relative;
+	color: #ed544f;
+	margin-left: 5px;
+	font-size: 30px;
+}
+.accordions_title.active {
+	background-color: #fff;
+	color: #fff;
+}
+.accordions_title.active h3 {
+	color: #000;
+}
+.accordions_title.active span:after {
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	color: #1d1d29;
+}
+.accordions_content {
+	display: none;
+	padding: 30px 30px;
+	background-color: #c1c1c1;
+}
+.accordions_content p {
+	color: #333;
+}
+.accordions_content ul {
+	color: #fff;
+}
+
+/* ==============================FAQ section ends====================== */
+
+/* ==============================Contact section ====================== */
+.contact_us_sec {
+	padding: 50px 0;
+}
+.contact_us_sec form {
+	padding: 28px;
+}
+.size1 {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	padding-bottom: 48px;
+	width: 335px;
+}
+.size2 {
+	display: flex;
+	flex-direction: column;
+	width: 355px;
+	max-width: 100%;
+}
+.txt1 {
+	font-size: 21px;
+	font-weight: 500;
+	padding-bottom: 23px;
+	line-height: 25px;
+}
+.txt2 {
+	color: #999999;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 25px;
+}
+.icon_set {
+	padding-right: 25px;
+}
+.address-sec {
+	padding: 80px 0;
+	background: rgba(0, 0, 0, 1);
+	color: #fff;
+	min-height: 548px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.get_in_touch {
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 40px;
+}
+/* ==============================Contact section ====================== */
+
+.product-for-detail li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.product-for-detail li img {ban
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 760px) {
+	.contact_us_sec .row .col {
+		width: 100%;
+	}
+	.address-sec {
+		margin-top: 25px;
+	}
+	.review-sec li {
+	transform: translate(0);
+}
+.payment-btn.card {
+	margin-top: 20px;
+}
+.make-payment {
+	transform: translate(-5%, 0);
+}
+.accordions_title h3 {
+	font-size: 15px;
+	line-height: 21px;
+}
+.thanks-page {
+	min-height: 155px !important;
+	font-size: 14px !important;
+}
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .review-sec {
+	margin-bottom: 8px;
+}
+.thanks-page {
+	min-height: 155px !important;
+	font-size: 14px !important;
+}
+.contact_us_sec .row .col {
+		width: 100%;
+	}
+	.accordions_title h3 {
+	font-size: 15px;
+	line-height: 21px;
+}
+	.address-sec {
+		margin-top: 25px;
+	}
+	.card-image img {
+		min-height: 120px;
+	}
+	.card .card-content {
+		padding: 10px 0;
+	}
+	.product-for-detail img {
+		max-width: 265px;
+	}
+}

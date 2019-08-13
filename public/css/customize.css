@@ -1,0 +1,27 @@
+.btn-white{
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-weight: bold;
+}
+.form-control {
+    font-weight: 400;
+    font-size: 0.875rem;
+    height: auto;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    background: #eee;
+    min-height: 49px;
+}
+select.form-control {
+    font-weight: 400;
+    font-size: 0.875rem;
+    height: auto;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    background: #eee;
+    min-height: 49px;
+    outline : 0;
+}
